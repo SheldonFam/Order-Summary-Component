@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 1.25rem;
+  width: 22rem;
+  height: 35rem;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 100%;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+.content {
+  padding: 1rem 1rem;
+}
+
+.content h2 {
+  padding-bottom: 1rem;
+}
+
+.content p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.box {
+  background-color: hsl(225, 100%, 98%);
+  margin: 1rem 1rem 1.5rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.icon {
+  margin: 1rem 1.25rem 1rem 1rem;
+}
+
+.text {
+  margin-right: 3.5rem;
+  margin-top: 1rem;
+}
+.text p {
+  color: hsl(224, 23%, 55%);
+}
+
+a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  margin-top: 2rem;
+}
+
+.btn-p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+}
+
+.btn-p:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+.btn-c {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  color: hsl(224, 23%, 55%);
+  background-color: transparent;
+}
+
+.btn-c:hover {
+  color: hsl(223, 47%, 23%);
+}
+.btn-p,
+.btn-c {
+  cursor: pointer;
+}
