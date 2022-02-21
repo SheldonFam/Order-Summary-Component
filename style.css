@@ -35,7 +35,7 @@ body {
 }
 
 .content {
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 
 .content h2 {
@@ -50,7 +50,7 @@ body {
 
 .box {
   background-color: hsl(225, 100%, 98%);
-  margin: 1rem 1rem 1.5rem 1rem;
+  margin: 1rem 1rem 1.5rem;
   border-radius: 1rem;
   display: flex;
 }
